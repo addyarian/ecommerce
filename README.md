@@ -1,12 +1,27 @@
-# React + Vite
+# 🛍️ E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An e-commerce site built with **React.js**, **Node.js**, and **Firebase** for a modern, secure, and user-friendly shopping experience.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Homepage with banner, navbar, categories, and latest arrivals  
+- Product pages with “About the product” details  
+- Predictive search with live suggestions  
+- User signup/login using Firebase Authentication  
+- Add/remove items from cart (cart persists after refresh)  
+- Secure checkout and order confirmation  
+- Admin login with role-based access  
+- Admin panel for managing products, users, and orders  
+- Custom 404 error page  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Installation
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/ecommerce-site.git
+cd ecommerce-site
 
-## Expanding the ESLint configuration
+# Install backend dependencies
+npm install
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Install frontend dependencies
+cd client
+npm install
