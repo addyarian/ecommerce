@@ -1,6 +1,6 @@
 # 🛍️ E-Commerce Website
 
-An e-commerce site built with **React.js**, **Node.js**, and **Firebase** for a modern, secure, and user-friendly shopping experience.
+An e-commerce site built with **React.js**, **Node.js**, and **Firebase**. 
 
 ## 🚀 Features
 - Homepage with banner, navbar, categories, and latest arrivals  
